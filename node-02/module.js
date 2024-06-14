@@ -6,4 +6,13 @@ const restar = (a,b) => {
     return a - b;
 };
 
-module.exports = sumar;
+const multiplicar = (a,b) => {
+    return a - b;
+};
+
+
+module.exports = {
+    sumar,
+    restar,
+    multiplicar
+};
